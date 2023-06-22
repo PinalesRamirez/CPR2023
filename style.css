@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+:root {
+    --main-color: #1a1a1a;
+    --secundary-color: #4d4d4d;
+    --grisdormido-color: #8c8c8c;
+    --grisnobel-color: #b3b3b3;
+    --blanquito-color: #ffffff;
+    
+  }
+  
+  /* body{
+    background-image: linear-gradient(to top, #1a1a1a, #262626, #323232, #404040, #4d4d4d);
+  } */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+/* barra nav principal */
+
+/* Estilo para el botón con efecto hover */
+
+  
+
+
+
+
+/* header principal */
+
+
+
+.espaciado{
+    width: 100%;
+    height: 65vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.carrusel{
+    width: 100%;
+    
+}
+/* .carrusel_img{
+    max-width: 1000px;
+} */
+
+
+/* 2da etapa */
+
+.svg1{
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+}
+
+
+/* 3ra etapa las 3 imagenes */
+
+
+
+.contimg1{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+
+
+
+
+/* seccion de los servicios */
+
+.service_box{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.service_svg{
+    width: 50px;
+    height: 50px;
+}
+
+.anchortext{
+    max-width: 700px;
+}
+/* .anchortext2{
+    max-width: 400px;
+} */
+
+
+/* carrusel parte inferior diseno */
+.owl-carousel{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin: 9px;
+    padding: 9px;
+
+}
+
+.datoscarrosel{
+    height: 10rem;
+}
+
+
+/* 
+Diseño del grid layaout */
+.contenedor {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 8px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "imagen1 imagen1 imagen1 imagen2 imagen3 imagen3 imagen3 imagen4"
+      "imagen1 imagen1 imagen1 imagen2 imagen3 imagen3 imagen3 imagen4"
+      "imagen1 imagen1 imagen1 imagen2 imagen3 imagen3 imagen3 imagen4"
+      "imagen5 imagen5 imagen6 imagen6 imagen6 imagen7 imagen7 imagen8"
+      "imagen5 imagen5 imagen6 imagen6 imagen6 imagen7 imagen7 imagen8"
+      "imagen5 imagen5 imagen6 imagen6 imagen6 imagen7 imagen7 imagen8";
+  }
+  
+  .imagen1 { grid-area: imagen1; }
+  
+  .imagen2 { grid-area: imagen2; }
+  
+  .imagen3 { grid-area: imagen3; }
+  
+  .imagen4 { grid-area: imagen4; }
+  
+  .imagen5 { grid-area: imagen5; }
+  
+  .imagen6 { grid-area: imagen6; }
+  
+  .imagen7 { grid-area: imagen7; }
+  
+  .imagen8 { grid-area: imagen8; }
+  
+
+    
+
+/* footer */
+
+.logocpr2{
+    max-width: 250px;
+}
+
+
+/* 
+media querys del primer carrusel */
+
+@media (max-width: 576px){
+    .espaciado{
+        width: 100%;
+        height: 30vh;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        margin: 15px auto;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 500px){
+    .espaciado{
+        width: 100%;
+        height: 30vh;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        margin: 15px auto;
+        overflow: hidden;
+    }
+}
+
+/* media querys de las 3 imagenes principales */
+
+@media (max-width: 768px) {
+    .santus{
+        gap: 15px;
+    }
+
+    .espaciado{
+        width: 100vw;
+        height: 50vh;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        margin: 15px auto;
+        overflow: hidden;
+    }
+}
