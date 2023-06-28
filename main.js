@@ -2,8 +2,8 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     autoplay:true,
-    autoplayTimeout:7000,
-    autoplayHoverPause:true,
+    autoplayTimeout:4000,
+    autoplayHoverPause:false,
     responsiveClass:true,
     responsive:{ 
         0:{
@@ -21,3 +21,5 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+    ScrollReveal().reveal('.headline', { delay: 500 },  { easing: 'ease-in' }) ;
