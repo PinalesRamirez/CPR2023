@@ -9,9 +9,9 @@
     
   }
   
-  /* body{
-    background-image: linear-gradient(to top, #1a1a1a, #262626, #323232, #404040, #4d4d4d);
-  } */
+  body{
+    background-color: var(--main-color) !important;
+  }
 
 *{
     margin: 0px;
@@ -20,7 +20,10 @@
     font-family: 'Pathway Gothic One', sans-serif;
 }
 /* barra nav principal */
-
+.contenedor-nav{
+    width: 100vw;
+    background-color: var(--main-color);
+}
 /* Estilo para el botón con efecto hover */
 
   
@@ -30,22 +33,26 @@
 
 /* header principal */
 
-
-
-.espaciado{
-    width: 100%;
-    height: 65vh;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    margin: 10px auto;
-    overflow: hidden;
+.contenedor-padre{
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
 }
+
 
 .carrusel{
-    width: 100%;
-    
+    width: 100vw;
+    height: auto;
 }
+.test-carru{
+    height: 65vh;
+    object-fit: cover;
+}
+
+
+
+
+
 /* .carrusel_img{
     max-width: 1000px;
 } */
@@ -57,7 +64,9 @@
     width: 60px;
     height: 60px;
     margin: 15px;
+    
 }
+
 
 
 /* 3ra etapa las 3 imagenes */
@@ -66,6 +75,8 @@
 
 .contimg1{
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: var(--grisnobel-color);
+    
 }
 
 
@@ -76,6 +87,7 @@
 
 .service_box{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: var(--main-color);
 }
 
 .service_svg{
@@ -89,7 +101,9 @@
 /* .anchortext2{
     max-width: 400px;
 } */
-
+.titulos{
+    color: var(--grisnobel-color);
+}
 
 /* carrusel parte inferior diseno */
 .owl-carousel{
@@ -140,6 +154,11 @@ Diseño del grid layaout */
     
 
 /* footer */
+
+
+.footer-container{
+    width: 100vw;
+}
 
 .logocpr2{
     max-width: 250px;
