@@ -23,3 +23,7 @@ $('.owl-carousel').owlCarousel({
 })
 
     ScrollReveal().reveal('.headline', { delay: 500 },  { easing: 'ease-in' }) ;
+
+    
+
+
