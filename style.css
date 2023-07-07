@@ -164,34 +164,58 @@ Diseño del grid layaout */
 
 .imagen1 {
     grid-area: imagen1;
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
 }
 
 .imagen2 {
     grid-area: imagen2;
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
 }
 
 .imagen3 {
     grid-area: imagen3;
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
 }
 
 .imagen4 {
     grid-area: imagen4;
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
 }
 
 .imagen5 {
     grid-area: imagen5;
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
 }
 
 .imagen6 {
     grid-area: imagen6;
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
 }
 
 .imagen7 {
     grid-area: imagen7;
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
 }
 
 .imagen8 {
     grid-area: imagen8;
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
 }
 
 
